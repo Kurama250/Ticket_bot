@@ -1,0 +1,14 @@
+{
+  "name": "ticket_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Github.com/Kurama250",
+  "license": "ISC",
+  "description": "Create and manage your tickets in a simple and fun way.",
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
