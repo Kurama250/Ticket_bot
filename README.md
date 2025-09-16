@@ -1,4 +1,4 @@
-<h1 align="center">Ticket_bot</h1>
+h1 align="center">Ticket_bot</h1>
 <em><h5 align="center">(Programming Language - Node.js | Shell)</h5></em>
 
 <p align="center">
