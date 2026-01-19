@@ -167,7 +167,7 @@ module.exports = (client) => {
       .setColor('#5865F2')
       .setThumbnail(botAvatar)
       .setFooter({
-        text: lang === 'fr' ? 'Système de tickets Yukiyo' : 'Yukiyo Ticket System',
+        text: lang === 'fr' ? 'Système de tickets' : 'Ticket System',
         iconURL: botAvatar
       })
       .setTimestamp();
@@ -199,4 +199,5 @@ module.exports = (client) => {
       components: []
     });
   });
+
 }; 
