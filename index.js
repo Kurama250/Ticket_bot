@@ -29,7 +29,7 @@ client.once('ready', () => {
   console.log(`🤖  Logged in as : ${client.user.tag}`);
   console.log('✅  Status : Online (Do Not Disturb)');
   console.log('🎫  Activity : Watching Support Tickets');
-  console.log('🚀  Yukiyo Ticket Bot is ready !');
+  console.log('🚀  Ticket Bot is ready !');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   client.user.setStatus('dnd');
   client.user.setPresence({
@@ -37,5 +37,6 @@ client.once('ready', () => {
     status: 'dnd'
   });
 });
+
 
 client.login(config.token); 
