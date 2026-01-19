@@ -25,9 +25,10 @@ module.exports = (client) => {
         '4. Click the "Create a ticket" button to open a support ticket.'
       )
       .setColor('#5865F2')
-      .setFooter({ text: 'Yukiyo Ticket System' })
+      .setFooter({ text: 'Ticket System' })
       .setTimestamp();
 
     await interaction.reply({ embeds: [embed], ephemeral: true });
   });
+
 }; 
